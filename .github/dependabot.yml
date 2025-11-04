@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Tipo de pacote (Node.js)
+    directory: "/"           # Diretório onde está o package.json
+    schedule:
+      interval: "weekly"     # Frequência das atualizações
